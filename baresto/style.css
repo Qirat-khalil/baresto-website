@@ -22,6 +22,7 @@
     background-color: rgb(20, 20, 20);
     position: relative;
     top: -900px;
+    /* position: fixed; */
 }
 
 .in-ul {
@@ -52,7 +53,9 @@
 /* main3 start */
 
 .main3{
-    background-color: rgb(255, 0, 221);
+    /* background-color: rgb(255, 0, 221); */
+    background-color: #18191B;
+    color: white;
 }
 .main3-img1{
    background-color: blueviolet; 
@@ -63,6 +66,9 @@
    background-repeat: no-repeat;
    background-size: cover;
 
+}
+.main3-img1  img{
+    
 }
 .main3-img2{
     background-color: blueviolet; 
@@ -87,9 +93,55 @@
    background-size: cover;
 }
 
+/* main4 start */
+
+.main-4{
+    margin-top: 35px;
+    background-color: #242527;
+    color: white;
+    padding: 25px;
+}
+.main-4 span{
+    color: #E3C086;
+}
 
 
+/* main5 */
 
+.main-5{
+    background-color: #18191B;
+    color: white;
+}
+
+.main-5 span{
+    color: #E3C086;
+}
+.card-in{
+   background-color: #18191B;
+   color: white;
+   border: 1px solid white;
+}
+
+.goog-img img{
+    width: 90px;
+}
+.star-img{
+   display: flex;
+   flex-direction: row-reverse;
+ margin-top: -35px;
+ 
+}
+.star-img img{
+    width: 90px; 
+    
+}
+
+.trus-img img{
+    padding: 10px;
+    width: 220px; 
+    /* background-color: black; */
+    
+}
 
 
 
