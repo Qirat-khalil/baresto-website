@@ -5,10 +5,6 @@
 }
 
 .container-fluid{
-    /* background-image: url("images/slide-1.jpg"); */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     height: 100%;
     width: 100%;
 
@@ -16,14 +12,41 @@
 
 /*  nav start */
 
-.main2{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(119, 96, 96);
+    /* .main2{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(119, 96, 96) ; 
+        
+         position: relative;
+        top: -900px; 
+         position: fixed;
+ opacity: 0.4 ; 
+    } */
+
+    .main2{
+   
+    display: flex;
+    justify-content: center;
+    }
+
+.navbar{
+    position: absolute !important;    /* absolute se collape chala jarha h navbar ka*/
+    top:0px;
+    background-color: green !important;
+    padding:19px;
+}
+
+/* assing */
+
+/* .cara-main{ 
+    width: 90vw;
+    height: 90vh;
+    background-image: url('./images/bg-side-1.jpg');
+} */
+
+.caro-img{
     /* position: relative;
-    top: -900px; */
-    /* position: fixed; */
-    /* opacity: 0.4 ; */
+    top: -250px; */
 }
 
 .in-ul {
@@ -68,52 +91,62 @@
 /* main3 start */
 
 .main3{
-    /* background-color: rgb(255, 0, 221); */
-    background-color: #18191B;
+    background-color: rgb(255, 0, 221);
+    /* background-color: #18191B; */
     color: white;
     padding: 35px;
 }
-/* .main3-img1{
-   background-color: blueviolet; 
+.main-3{
+    background-color: rgb(68, 57, 67);
+    background-color: transparent;
+    padding: 35px;
+    position: relative;
+    top: -410px;
+    color: aliceblue;
+    background-size: cover;
+    /* height: 300px; */
+    /* bottom: 355px; */
+}
+.main3-img12{
+    background-attachment:  local;
+}
+.navbar-collapse{
+    z-index: 50 !important ;
+}
+ .main3-img1{
+   background-color: rgb(110, 226, 43); 
  
    text-align: center;
-   background-image: url("images/download.jpeg");
+   background-image: url("images/1.jpg");
+   background-attachment: local;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   opacity: 0.4;
+  
    
-
 }
 
 .main3-img2{
-    background-color: blueviolet; 
-   
-    text-align: center;
-    background-image: url("images/download\ \(1\).jpeg");
-    background-position: center;
+    /* background-color: blueviolet; */
+    background-image: url("images/2.jpg");
+     background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   opacity: 0.4;
+
 }
-.main3-img2 image{
-    
-}
+
+
 .main3-img3{
-    background-color: blueviolet; 
-
-    text-align: center;
-    background-image: url("images/images.jpeg");
+    /* background-color: blueviolet;  */
+    background-image: url("images/3.jpg");
     background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
-   
-   height: auto;
-} */
+   background-size: cover;  
+} 
 
-.icon img{
-    background-color: aqua;
-  
+
+.main-3-para{
+    /* background-attachment: scroll local; */
 }
 
 /* main4 start */
@@ -170,9 +203,27 @@
 
 .inpart{
     background-color: rgb(49, 105, 105);
-    position: relative;
-    top: -850px;
+    /* position: relative;
+    top: -850px; */
+   
 }
+ .inp-img{
+  
+ }
+ .inp-img img{
+   
+ }
+
+.inpart1{
+    /* position: relative; */
+    top: -970px;
+    height: 149vh;
+    /* margin:  15px;  */
+    /* padding: 25px; */
+    /* border: 85px solid black; */
+    background-color:aqua;
+}
+
 
 
 
@@ -194,5 +245,14 @@
         display: none;
     }
 
+}
 
+@media (max-width:992px){
+    .main2{
+        position: absolute;
+        top: 0;
+    }
+    .cara-text{
+        
+    }
 }
